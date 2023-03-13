@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,18 +16,18 @@
       <span class="visually-hidden">Loading...</span>
     </div>
   </div>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="header__navigation">
             <div class="header__logo">
                 <img src="img/logo.png" width="250" height="59" alt="">
             </div>
             <ul class="header__links" id="navLinks">
                 <i class="fas fa-times" onclick="hideMenu()"></i>
-                <li><a href="#acceuil" class="actived">Acceuil</a></li>
+                <li><a href="#home" class="actived">Acceuil</a></li>
                 <li><a href="#about">A propos</a></li>
-                <li><a href="#">Compétances</a></li>
+                <li><a href="#value">Valeurs</a></li>
                 <li><a href="#">services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
@@ -74,7 +74,7 @@
     </section><!-- End About Section -->
   
 <!-- ======= Values Section ======= -->
-<section id="values" class="values">
+<section id="value" class="values">
 
   <div class="container" data-aos="fade-up">
 
@@ -105,7 +105,7 @@
         <div class="box">
           <img src="assets/img/values-3.png" class="img-fluid" alt="">
           <h3>Le design</h3>
-          <p>J'utilise le design pour mieux réprésenter le mon application</p>
+          <p>J'utilise le design pour une réprésentation attirantes pour le marketing de votre site</p>
         </div>
       </div>
 
@@ -148,14 +148,14 @@
             <div class="info-box">
               <i class="bi bi-envelope"></i>
               <h3>Email</h3>
-              <p>barakabilali11@.com<br></p>
+              <p>barakabilali11@gmail.com<br></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="info-box">
               <i class="bi bi-clock"></i>
               <h3> Ouverts de lundi au samedi</h3>
-              <p>Monday - Friday<br>8:00 - 22:00</p>
+              <p>Lundi - Samedi<br>8:00 - 22:00</p>
             </div>
           </div>
         </div>
@@ -167,15 +167,15 @@
           <div class="row gy-4">
 
             <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              <input type="text" name="name" class="form-control" placeholder="Votre Nom" required>
             </div>
 
             <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              <input type="email" class="form-control" name="email" placeholder="Votre Email" required>
             </div>
 
             <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+              <input type="text" class="form-control" name="subject" placeholder="Sujet" required>
             </div>
 
             <div class="col-md-12">
@@ -183,11 +183,11 @@
             </div>
 
             <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="loading">Chargement</div>
+              <div class="error-message">Votre message n'a pas été envoyé !</div>
+              <div class="sent-message">Votre message a été bien envoyé !</div>
 
-              <button class="btn" type="submit">Send Message</button>
+              <button class="btn" type="submit">Envoyer message</button>
             </div>
 
           </div>
@@ -229,45 +229,44 @@
         <a href="index.html" class="logo d-flex align-items-center">
           <img src="img/logo.png" alt="">
         </a>
-        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+        <p>Utilisons la technologies pour sauver notre planète !</p>
         <div class="social-links mt-3">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://twitter.com/baraka_becker" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="https://web.facebook.com/baraka.bilali.9" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/baraka__becker11/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/feed/" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
 
       <div class="col-lg-2 col-6 footer-links">
-        <h4>Useful Links</h4>
+        <h4>Liens</h4>
         <ul>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#home">Acceuil</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#about">A propos</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#value">Valeurs</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+         
         </ul>
       </div>
 
       <div class="col-lg-2 col-6 footer-links">
-        <h4>Our Services</h4>
+        <h4>Nos Services</h4>
         <ul>
           <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Développement Web </a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Développement Mobile</a></li>
+  
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-        <h4>Contact Us</h4>
+      <div class="col-lg-3 co l-md-12 footer-contact text-center text-md-start">
+        <h4>Contactez-moi</h4>
         <p>
-          A108 Adam Street <br>
-          New York, NY 535022<br>
-          United States <br><br>
-          <strong>Phone:</strong> +1 5589 55488 55<br>
-          <strong>Email:</strong> info@example.com<br>
+          N° 10<br>
+          Boulevard Lumumba, Quartier Kabila, Commune de Kimbanseke<br>
+          Kinshasa RDC <br><br>
+          <strong>Téléphone:</strong> +243 82 49 76 100<br>
+          <strong>Email:</strong> barakabilali11@gmail.com<br>
         </p>
 
       </div>
@@ -278,31 +277,22 @@
 
 <div class="container">
   <div class="copyright">
-    &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+    &copy; Copyright <strong><span>Ben Becker</span></strong>. Tout droit réservés
   </div>
   <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  
+    Crée par <a href="https://github.com/baraka-bilali">Ben Becker</a>
   </div>
 </div>
 </footer><!-- End Footer -->
 
 <!-------------------JavaScript for Toggle Menu------------------------>
     <script>
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
-        
+       
     </script>
+
+    <script src="JS/main.js"></script>
     <script src="CSS/js/bootstrap.js"></script>
+    
 </body>
 </html>
